@@ -98,12 +98,28 @@ body {
 
 @-webkit-keyframes downarrow {
     0% {
-        -webkit-transform: translateY(0); opacity: 0.4;
+        -webkit-transform: translateY(0);
+        opacity: 0.4;
     }
 
     100% {
-        -webkit-transform: translateY(0.4em); opacity: 0.9;
+        -webkit-transform: translateY(0.4em);
+        opacity: 0.9;
     }
+}
+
+
+@media (max-width: 425px) {
+    .hero{
+        height: 60vh;
+    }
+
+    .hero h2{
+        font-size: 2.5rem;
+    }
+
+
+
 }
 
 
