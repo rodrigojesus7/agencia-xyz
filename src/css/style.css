@@ -118,8 +118,6 @@ body {
         font-size: 2.5rem;
     }
 
-
-
 }
 
 
@@ -130,7 +128,49 @@ body {
 
 .about {
     grid-area: about;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    background-color: #fff;
+
+
 }
+
+.about .item{
+    padding: 20%;
+}
+
+
+.about .image {
+    height: 100%;
+    width: 100%;
+}
+
+.about .image.right {
+    background: url('../images/bridge.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.about .image.left {
+    background: url('../images/sky.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .services {
     grid-area: services;
