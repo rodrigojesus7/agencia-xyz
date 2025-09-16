@@ -27,6 +27,9 @@ body {
 }
 
 
+
+/* HEADER */
+
 .header {
     grid-area: header;
     background-color: #fff;
@@ -60,9 +63,19 @@ body {
 
 
 
+/* HERO */
+
 .hero {
     grid-area: hero;
+    height: 89vh;
+    background: url('../images/lemons.jpg') center center no-repeat;
 }
+
+
+
+
+
+
 
 .about {
     grid-area: about;
