@@ -124,7 +124,7 @@ body {
 
 
 
-
+/* ABOUT */
 
 .about {
     grid-area: about;
@@ -223,8 +223,7 @@ body {
 
 
 
-
-
+/* SERVICES */
 
 .services {
     grid-area: services;
@@ -238,12 +237,12 @@ body {
     padding: 70px 20px;
 }
 
-.services .service img{
+.services .service img {
     width: 250px;
     margin-bottom: 30px;
 }
 
-.services .service h3{
+.services .service h3 {
     font-size: 1.8rem;
     font-weight: 700;
 }
@@ -258,16 +257,26 @@ body {
 }
 
 
-.services .service:nth-child(1){
+.services .service:nth-child(1) {
     background-color: lightskyblue;
 }
 
-.services .service:nth-child(2){
+.services .service:nth-child(2) {
     background-color: lightpink;
 }
 
 
 
+@media (max-width: 425px) {
+
+    .services {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+}
 
 
 
@@ -276,11 +285,20 @@ body {
 
 
 
-
+/* PROJECTS */
 
 .projects {
     grid-area: projects;
 }
+
+
+
+
+
+
+
+
+/* FOOTER */
 
 .footer {
     grid-area: footer;
