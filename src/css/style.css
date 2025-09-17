@@ -157,6 +157,7 @@ body {
 .about .item p {
     font-size: 1.8rem;
     margin: 30px 0;
+    font-weight: 400;
 }
 
 
@@ -196,7 +197,23 @@ body {
 
 
 
-@media (maxw-width: 425) {}
+@media (max-width: 425px) {
+    .about .item {
+        text-align: center;
+    }
+
+    .about .item .btn-know-more {
+        align-self: center;
+    }
+
+
+    .about {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+
+}
 
 
 
