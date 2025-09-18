@@ -109,7 +109,7 @@ body {
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 440px) {
     .hero {
         height: 60vh;
     }
@@ -199,7 +199,7 @@ body {
 
 
 
-@media (max-width: 425px) {
+@media (max-width: 440px) {
     .about .item {
         text-align: center;
     }
@@ -267,7 +267,7 @@ body {
 
 
 
-@media (max-width: 425px) {
+@media (max-width: 440px) {
 
     .services {
 
@@ -314,7 +314,7 @@ body {
 }
 
 
-@media (max-width: 425px) {
+@media (max-width: 440px) {
 
     .projects {
         grid-template-columns: 1fr;
